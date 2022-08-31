@@ -1,0 +1,33 @@
+
+        p {
+            font-family: Arial;
+        }
+        .email {
+            color:rgba(0, 0, 0, 0.571);
+            margin-bottom: 5px;
+        }
+        .searchbar {
+            padding-right: 230px;
+            margin-bottom: 0;
+            border-color: black;
+            border-style: solid;
+            border-radius: 4px;
+            padding-bottom: 8px;
+        }
+        .terms {
+            color:rgb(93, 91, 91);
+            font-size: 15px;
+            
+        }
+        .button {
+            width :375px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-radius:137px ;
+            border-style: solid;
+            background-color: rgb(88, 88, 245);
+            border: none;
+            color:white;
+            cursor: pointer;
+        }
+   
