@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div style=
+    "display:grid
+    ;grid-template-columns: 100px 100px;
+    ">
+    <div style="background-color:grey">div 1</div>
+        <div style="background-color:lightpink">
+            div 2
+            <p>
+                Hello
+            </p>
+        </div>
+    </div>
+    <div style=
+    "display:grid
+    ;grid-template-columns: 100px 100px 1fr;
+    margin-top: 30px;
+    ">
+    <div style="background-color:grey">100px</div>
+        <div style="background-color:lightpink">100px<p>Hello</p></div>
+        <div style="background-color:grey">200px</div>
+        <div style="background-color:grey">200px</div>
+    </div>
+    <div style=
+    "display:grid
+    ;grid-template-columns: 100px 1fr;
+    margin-top: 30px;
+    ">
+    <div style="background-color:grey">100px</div>
+        <div style="background-color:lightpink">1fr</div>
+    </div>
+    <div style=
+    "display:grid
+    ;grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    column-gap: 20px;
+    row-gap: 40px;
+    ">
+    <div style="background-color:grey;height:200px;">1fr</div>
+        <div style="background-color:lightpink;">1fr</div>
+        <div style="background-color:cyan">1fr</div>
+        <div style="background-color:lightpink;height:200px;">1fr</div>
+        <div style="background-color:cyan;">1fr</div>
+        <div style="background-color:lightpink">1fr</div>
+    </div>
+    
+        
+</body>
+</html>

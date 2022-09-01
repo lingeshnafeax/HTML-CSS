@@ -13,8 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">    
    <style>
     .thumbnail {
-        width:300px;
-        display :block;
+        width:100%;
     }
     .searchbar {
         display: block;
@@ -26,6 +25,7 @@
         margin-top: 10px;
         font-size: 15px;
         line-height: 20px;
+        width:250px;
 
     }
     .youtuber{
@@ -38,25 +38,8 @@
         margin-top: 0px;
         color:rgb(95, 93, 93);
     }
-    .video-preview1 {
-        width:300px;
-        display: inline-block;
-    }
-    .video-preview2 {
-        width:300px;
-        display: inline-block;
-        margin-left: 1px;
-        vertical-align: top;
-    }
     .channel-logo {
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
         margin-top:10px;
-    }
-    .video-info {
-        display: inline-block;
-        width:230px;
     }
     .profile-picture {
         width:40px;
@@ -65,15 +48,26 @@
     .video-title,.youtuber,.stats {
         font-family: 'Roboto', sans-serif;
     }
+    .video-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+    }
+    .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 30px;
+    }
    </style>
 </head>
 <body>
     <input class="searchbar" type="text" placeholder="Search">
-    <div class="video-preview1">
+    <div class="video-grid">
+    <div class="video-preview">
         <div>
             <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="MarquesBrownlee and SundarPitchai">
         </div>
-        <div>
+        <div class="video-info-grid">
             <div class="channel-logo">
                 <img class="profile-picture" src="channel-logo/channel-1.jpeg" alt="Logo">
             </div>
@@ -91,11 +85,11 @@
             </div>  
         </div>
       </div>
-    <div class="video-preview2">
+    <div class="video-preview">
         <div>
             <img class="thumbnail" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" alt="Markiplier">
         </div>
-        <div>
+        <div class="video-info-grid">
             <div class="channel-logo">
                 <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg" alt="Logo">
             </div>
@@ -113,5 +107,94 @@
             </div>  
         </div>
       </div>
+      <div class="video-preview">
+        <div>
+            <img class="thumbnail" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-3.webp" alt="SSniperwolf">
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-logo">
+                <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-3.jpeg" alt="Logo">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    <strong>Crazy Tiktok Taken before DISASTER
+                    </strong>
+                    </p>
+                <p class="youtuber">
+                    SSSniperwolf
+                </p>
+                <p class="stats">
+                    12M views · 1 year ago
+                </p>
+            </div>  
+        </div>
+      </div>
+    <div class="video-preview">
+        <div>
+            <img class="thumbnail" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-4.webp" alt="Veritasium">
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-logo">
+                <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-4.jpeg" alt="Logo">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    <strong>The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                    </strong>
+                    </p>
+                <p class="youtuber">
+                    Veritasium
+                </p>
+                <p class="stats">
+                    18M views · 4 months ago
+                </p>
+            </div>  
+        </div>
+      </div>
+      <div class="video-preview">
+        <div>
+            <img class="thumbnail" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-5.webp" alt="CS Dojo">
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-logo">
+                <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-5.jpeg" alt="Logo">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    <strong>Kadane's Algorithm to Maximum Sum Subarray Problem
+                    </strong>
+                    </p>
+                <p class="youtuber">
+                    CS Dojo
+                </p>
+                <p class="stats">
+                    519k views · 5 years ago
+                </p>
+            </div>  
+        </div>
+      </div>
+    <div class="video-preview">
+        <div>
+            <img class="thumbnail" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-6.webp" alt="MrBeast">
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-logo">
+                <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-6.jpeg" alt="Logo">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    <strong>Anything You Can Fit In The Circle I’ll Pay For
+                    </strong>
+                    </p>
+                <p class="youtuber">
+                    MrBeast
+                </p>
+                <p class="stats">
+                    141M views · 4 years ago
+                </p>
+            </div>  
+        </div>
+      </div>
+    </div>
 </body>
 </html>
