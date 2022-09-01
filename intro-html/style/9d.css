@@ -1,0 +1,22 @@
+.ad {
+    width: 400px;
+    height:100px;
+    background-color: black;
+}
+.heading {
+    color: white;
+    font-size:22px;
+    padding-left:20px;
+    padding-top:15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.description {
+    color:rgba(212, 211, 211, 0.886);
+    font-size: 14px;
+    width:320px;
+    padding-left:20px;
+    margin-top:10px;
+    font-family: 'Roboto', sans-serif;
+}
