@@ -10,58 +10,25 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">    
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">   
+<link rel="stylesheet" href="style/video.css">
+<link rel="stylesheet" href="style/header.css"> 
    <style>
-    .thumbnail {
-        width:100%;
-    }
-    .searchbar {
-        display: block;
-        margin-bottom: 10px;
-       
-    }
-    .video-title {
-        font-weight: bolder;
-        margin-top: 10px;
-        font-size: 15px;
-        line-height: 20px;
-        width:250px;
-
-    }
-    .youtuber{
-        font-size: 12px;
-        margin-bottom: 4px;
-        color:rgb(95, 93, 93);
-    }
-    .stats {
-        font-size: 12px;
-        margin-top: 0px;
-        color:rgb(95, 93, 93);
-    }
-    .channel-logo {
-        margin-top:10px;
-    }
-    .profile-picture {
-        width:40px;
-        border-radius: 25px;
-    }
-    .video-title,.youtuber,.stats {
-        font-family: 'Roboto', sans-serif;
-    }
-    .video-info-grid {
-        display: grid;
-        grid-template-columns: 50px 1fr;
-    }
-    .video-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        column-gap: 15px;
-        row-gap: 30px;
-    }
+    
    </style>
 </head>
-<body>
-    <input class="searchbar" type="text" placeholder="Search">
+<body style="margin:0px">
+    <div class="header">
+        <div class="left">
+            left section
+        </div>
+        <div class="middle">
+            <input class="searchbar" type="text" placeholder="Search">
+        </div>
+        <div class="right">
+            right section
+        </div>
+    </div>
     <div class="video-grid">
     <div class="video-preview">
         <div>
