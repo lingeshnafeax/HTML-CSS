@@ -5,17 +5,87 @@
     justify-content: space-between;
 }
 .left {
-    background-color: lightblue;
-    width:150px;
+    display: flex;
+    align-items: center;
 }
 .middle {
-    background-color: lightpink;
     margin-left:70px;
     margin-right:35px;
     flex:1;
     max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.search-button {
+    height: 40px;
+    width:60px;
+    background-color: white;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(128,128,128,0.5);
+    margin-left: -1px;
+}
+.searchbar {
+    flex:1;
+    height:40px; 
+    padding-left: 12px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(128,128,128,0.5);
+    border-radius: 2px;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.15);
+    width:0;
+}
+.searchbar::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.voice-button {
+    height:40px;
+    width:60px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color:white;
 }
 .right {
-    background-color: lightgrey;
-    width:200px;
+    width:220px;
+    display: flex;
+    flex-shrink: 0;
+}
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+.yt-logo {
+    height: 20px;
+}
+.search-img {
+    height:25px;
+    width:40px;
+}
+.voice-img {
+    height:25px;
+    width:30px;
+    border-radius: 12px;
+}
+.upload {
+    height:24px;
+    margin-top:14px;
+}
+.yt-apps {
+    height:24px;
+    margin-top:14px;
+}
+.notification {
+    height:24px;
+    margin-top:14px;
+}
+.logo {
+    height:34px;
+    margin-top:10px;
 }
