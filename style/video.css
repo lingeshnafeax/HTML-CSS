@@ -27,7 +27,7 @@
     width:40px;
     border-radius: 25px;
 }
-.video-title,.youtuber,.stats {
+.video-title,.youtuber,.stats,.video-time {
     font-family: 'Roboto', sans-serif;
 }
 .video-info-grid {
@@ -39,4 +39,17 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 30px;
+}
+.video-time {
+    background-color: black;
+    color:white;
+    right:10px;
+    width:40px;
+    position:absolute;
+    bottom:120px;
+    font-size: 14px;
+    padding-left: 4px;
+    border-radius: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
 }

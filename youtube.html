@@ -13,12 +13,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">   
 <link rel="stylesheet" href="style/video.css">
 <link rel="stylesheet" href="style/header.css"> 
-   <style>
-    
-   </style>
+<link rel="stylesheet" href="style/sidebar.css">
 </head>
-<body style="margin:0px">
-    <div class="header">
+<body style="margin:0px;padding-top: 80px;padding-left: 80px;">
+    <div class="header" style="z-index:1">
         <div class="left">
             <img class="hamburger-menu" src="images/hamburger-menu.svg" alt="">
             <img class="yt-logo" src="images/youtube-logo.svg" alt="">
@@ -41,6 +39,7 @@
                </div>
                 <div class="not" style="flex:1">
                     <img class="notification" src="images/notifications.svg" alt="">
+                    <div class="noti">4</div>
                 </div>
                 <div class="pro" style="flex:1">
                     <img class="logo" src="channel-logo/my-channel.jpeg" alt="">
@@ -49,10 +48,14 @@
                
         </div>
     </div>
-    <div class="video-grid">
-    <div class="video-preview">
+    <div class="sidebar">
+        
+    </div>
+    <div class="video-grid" style="z-index:0">
+    <div class="video-preview" style="position:relative">
         <div>
             <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="MarquesBrownlee and SundarPitchai">
+            <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
             <div class="channel-logo">
@@ -72,9 +75,10 @@
             </div>  
         </div>
       </div>
-    <div class="video-preview">
+    <div class="video-preview"  style="position:relative">
         <div>
             <img class="thumbnail" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" alt="Markiplier">
+            <div class="video-time">8:12</div>
         </div>
         <div class="video-info-grid">
             <div class="channel-logo">
@@ -94,10 +98,11 @@
             </div>  
         </div>
       </div>
-      <div class="video-preview">
+      <div class="video-preview"  style="position:relative">
         <div>
             <img class="thumbnail" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-3.webp" alt="SSniperwolf">
-        </div>
+            <div class="video-time">9:13</div>
+     </div>
         <div class="video-info-grid">
             <div class="channel-logo">
                 <img class="profile-picture" src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-3.jpeg" alt="Logo">
@@ -116,9 +121,10 @@
             </div>  
         </div>
       </div>
-    <div class="video-preview">
+    <div class="video-preview"  style="position:relative">
         <div>
             <img class="thumbnail" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-4.webp" alt="Veritasium">
+            <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
             <div class="channel-logo">
@@ -138,9 +144,10 @@
             </div>  
         </div>
       </div>
-      <div class="video-preview">
+      <div class="video-preview"  style="position:relative">
         <div>
             <img class="thumbnail" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-5.webp" alt="CS Dojo">
+            <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
             <div class="channel-logo">
@@ -160,9 +167,10 @@
             </div>  
         </div>
       </div>
-    <div class="video-preview">
+    <div class="video-preview"  style="position:relative">
         <div>
             <img class="thumbnail" src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-6.webp" alt="MrBeast">
+            <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
             <div class="channel-logo">
