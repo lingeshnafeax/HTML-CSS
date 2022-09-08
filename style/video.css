@@ -36,10 +36,21 @@
 }
 .video-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 30px;
 }
+@media (max-width: 800px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:800px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}   
+
 .video-time {
     background-color: black;
     color:white;
